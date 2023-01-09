@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "84e33cc9498422f4faad4ec8dd4c3a19",
+    "content-hash": "79a34efa9d8c0d20359ca8581b3f2f56",
     "packages": [
         {
             "name": "alireaza/laravel-form-data",
@@ -129,17 +129,17 @@
             "time": "2022-12-10T15:14:22+00:00"
         },
         {
-            "name": "alireaza/laravel-message-sourcing",
-            "version": "1.1.0",
+            "name": "alireaza/laravel-message-bus-message-sourcing",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/alireaza/laravel-message-sourcing.git",
-                "reference": "63641e2a558665f0b37580c3d63afdad357d64fc"
+                "url": "https://github.com/alireaza/laravel-message-bus-message-sourcing.git",
+                "reference": "7b6d1abbee86023393fbd7a3ed042afc503db488"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alireaza/laravel-message-sourcing/zipball/63641e2a558665f0b37580c3d63afdad357d64fc",
-                "reference": "63641e2a558665f0b37580c3d63afdad357d64fc",
+                "url": "https://api.github.com/repos/alireaza/laravel-message-bus-message-sourcing/zipball/7b6d1abbee86023393fbd7a3ed042afc503db488",
+                "reference": "7b6d1abbee86023393fbd7a3ed042afc503db488",
                 "shasum": ""
             },
             "require": {
@@ -151,13 +151,13 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "AliReaza\\Laravel\\Gateway\\Message\\Sourcing\\LaravelMessageSourcingServiceProvider"
+                        "AliReaza\\Laravel\\MessageBus\\MessageSourcing\\MessageSourcingServiceProvider"
                     ]
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "AliReaza\\Laravel\\Gateway\\Message\\Sourcing\\": "src/"
+                    "AliReaza\\Laravel\\MessageBus\\MessageSourcing\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -172,7 +172,7 @@
                 }
             ],
             "description": "This is a Message Sourcing for Laravel Message Bus.",
-            "homepage": "https://gitlab.com/alireaza/laravel-message-sourcing",
+            "homepage": "https://gitlab.com/alireaza/laravel-message-bus-message-sourcing",
             "keywords": [
                 "alireaza",
                 "bus",
@@ -182,8 +182,8 @@
                 "sourcing"
             ],
             "support": {
-                "issues": "https://github.com/alireaza/laravel-message-sourcing/issues",
-                "source": "https://github.com/alireaza/laravel-message-sourcing/tree/v1.1.0"
+                "issues": "https://github.com/alireaza/laravel-message-bus-message-sourcing/issues",
+                "source": "https://github.com/alireaza/laravel-message-bus-message-sourcing/tree/v1.2.0"
             },
             "funding": [
                 {
@@ -191,20 +191,20 @@
                     "type": "LinkedIn"
                 }
             ],
-            "time": "2023-01-08T14:06:54+00:00"
+            "time": "2023-01-09T19:02:38+00:00"
         },
         {
-            "name": "alireaza/laravel-request-response-with-message-bus",
-            "version": "1.1.1",
+            "name": "alireaza/laravel-message-bus-request-response-gateway",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/alireaza/laravel-request-response-with-message-bus.git",
-                "reference": "3065c71840bf7769fababdc01f87a0fee7517ff1"
+                "url": "https://github.com/alireaza/laravel-message-bus-request-response-gateway.git",
+                "reference": "3d25e2adde6a69e1a6b37afd7bc691bd2dc6fa09"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alireaza/laravel-request-response-with-message-bus/zipball/3065c71840bf7769fababdc01f87a0fee7517ff1",
-                "reference": "3065c71840bf7769fababdc01f87a0fee7517ff1",
+                "url": "https://api.github.com/repos/alireaza/laravel-message-bus-request-response-gateway/zipball/3d25e2adde6a69e1a6b37afd7bc691bd2dc6fa09",
+                "reference": "3d25e2adde6a69e1a6b37afd7bc691bd2dc6fa09",
                 "shasum": ""
             },
             "require": {
@@ -218,13 +218,13 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "AliReaza\\Laravel\\Gateway\\LaravelRequestResponseWithMessageBusServiceProvider"
+                        "AliReaza\\Laravel\\MessageBus\\RequestResponseGateway\\RequestResponseGatewayServiceProvider"
                     ]
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "AliReaza\\Laravel\\Gateway\\": "src/"
+                    "AliReaza\\Laravel\\MessageBus\\RequestResponseGateway\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -238,8 +238,8 @@
                     "homepage": "https://www.alireaza.com"
                 }
             ],
-            "description": "This is a gateway to Request-Response with Message Bus for Laravel.",
-            "homepage": "https://gitlab.com/alireaza/laravel-request-response-with-message-bus",
+            "description": "This is a Request-Response Gateway for Laravel Message Bus.",
+            "homepage": "https://gitlab.com/alireaza/laravel-message-bus-request-response-gateway",
             "keywords": [
                 "alireaza",
                 "gateway",
@@ -247,8 +247,8 @@
                 "request-response"
             ],
             "support": {
-                "issues": "https://github.com/alireaza/laravel-request-response-with-message-bus/issues",
-                "source": "https://github.com/alireaza/laravel-request-response-with-message-bus/tree/v1.1.1"
+                "issues": "https://github.com/alireaza/laravel-message-bus-request-response-gateway/issues",
+                "source": "https://github.com/alireaza/laravel-message-bus-request-response-gateway/tree/v1.2.0"
             },
             "funding": [
                 {
@@ -256,7 +256,7 @@
                     "type": "LinkedIn"
                 }
             ],
-            "time": "2023-01-06T10:42:30+00:00"
+            "time": "2023-01-09T19:08:50+00:00"
         },
         {
             "name": "alireaza/message-bus",
