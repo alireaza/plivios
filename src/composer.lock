@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "79a34efa9d8c0d20359ca8581b3f2f56",
+    "content-hash": "70c740c7537af7e37c10ff678e7c71bf",
     "packages": [
         {
             "name": "alireaza/laravel-form-data",
@@ -257,6 +257,72 @@
                 }
             ],
             "time": "2023-01-09T19:08:50+00:00"
+        },
+        {
+            "name": "alireaza/laravel-message-bus-request-response-handler",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alireaza/laravel-message-bus-request-response-handler.git",
+                "reference": "75c4e7451f87ddacbeb1049ae71fb28c3d0d90cf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alireaza/laravel-message-bus-request-response-handler/zipball/75c4e7451f87ddacbeb1049ae71fb28c3d0d90cf",
+                "reference": "75c4e7451f87ddacbeb1049ae71fb28c3d0d90cf",
+                "shasum": ""
+            },
+            "require": {
+                "alireaza/laravel-message-bus-kafka": "1.0.0",
+                "laravel/framework": "^9.0",
+                "php": "^8.0.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "AliReaza\\Laravel\\MessageBus\\RequestResponseHandler\\RequestResponseHandlerServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "AliReaza\\Laravel\\MessageBus\\RequestResponseHandler\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mohammad Ali Ghorbani Delijani",
+                    "email": "alireazamagh@gmail.com",
+                    "homepage": "https://www.alireaza.com"
+                }
+            ],
+            "description": "This is a Request-Response Handler for Laravel Message Bus.",
+            "homepage": "https://gitlab.com/alireaza/laravel-message-bus-request-response-handler",
+            "keywords": [
+                "alireaza",
+                "bus",
+                "handler",
+                "kafka",
+                "message",
+                "message-bus",
+                "request-response"
+            ],
+            "support": {
+                "issues": "https://github.com/alireaza/laravel-message-bus-request-response-handler/issues",
+                "source": "https://github.com/alireaza/laravel-message-bus-request-response-handler/tree/v1.0.0"
+            },
+            "funding": [
+                {
+                    "url": "https://www.linkedin.com/in/alireaza",
+                    "type": "LinkedIn"
+                }
+            ],
+            "time": "2023-01-10T18:21:37+00:00"
         },
         {
             "name": "alireaza/message-bus",
