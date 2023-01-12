@@ -11,7 +11,7 @@
         "ext-redis": "*",
         "alireaza/laravel-message-bus-message-sourcing": "^1.2",
         "alireaza/laravel-message-bus-request-response-gateway": "^1.2",
-        "alireaza/laravel-message-bus-request-response-handler": "^1.0",
+        "alireaza/laravel-message-bus-request-response-handler": "^1.1",
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^9.46",
         "laravel/sanctum": "^3.0",

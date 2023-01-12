@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "70c740c7537af7e37c10ff678e7c71bf",
+    "content-hash": "8ce39102f99fcb4316d25d83d03ec390",
     "packages": [
         {
             "name": "alireaza/laravel-form-data",
@@ -260,16 +260,16 @@
         },
         {
             "name": "alireaza/laravel-message-bus-request-response-handler",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/alireaza/laravel-message-bus-request-response-handler.git",
-                "reference": "75c4e7451f87ddacbeb1049ae71fb28c3d0d90cf"
+                "reference": "13fe8f17d086a391dc95f6e4de71ea16706e0fc6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alireaza/laravel-message-bus-request-response-handler/zipball/75c4e7451f87ddacbeb1049ae71fb28c3d0d90cf",
-                "reference": "75c4e7451f87ddacbeb1049ae71fb28c3d0d90cf",
+                "url": "https://api.github.com/repos/alireaza/laravel-message-bus-request-response-handler/zipball/13fe8f17d086a391dc95f6e4de71ea16706e0fc6",
+                "reference": "13fe8f17d086a391dc95f6e4de71ea16706e0fc6",
                 "shasum": ""
             },
             "require": {
@@ -314,7 +314,7 @@
             ],
             "support": {
                 "issues": "https://github.com/alireaza/laravel-message-bus-request-response-handler/issues",
-                "source": "https://github.com/alireaza/laravel-message-bus-request-response-handler/tree/v1.0.0"
+                "source": "https://github.com/alireaza/laravel-message-bus-request-response-handler/tree/v1.1.0"
             },
             "funding": [
                 {
@@ -322,7 +322,7 @@
                     "type": "LinkedIn"
                 }
             ],
-            "time": "2023-01-10T18:21:37+00:00"
+            "time": "2023-01-12T17:06:41+00:00"
         },
         {
             "name": "alireaza/message-bus",
