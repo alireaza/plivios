@@ -13,7 +13,7 @@
         "alireaza/laravel-message-bus-request-response-gateway": "^1.2",
         "alireaza/laravel-message-bus-request-response-handler": "^1.1",
         "guzzlehttp/guzzle": "^7.2",
-        "laravel/framework": "^9.46",
+        "laravel/framework": "^9.47",
         "laravel/sanctum": "^3.0",
         "laravel/tinker": "^2.7"
     },
