@@ -9,6 +9,7 @@ RUN apk --no-cache --virtual .pdo_pgsql add --update postgresql-dev \
 && apk del .pdo_pgsql
 
 RUN apk --no-cache --virtual .redis add --update autoconf build-base \
+&& if [[ -n "$http_proxy" ]] ; then pear config-set http_proxy ${http_proxy}; fi \
 && pecl install redis && docker-php-ext-enable redis \
 && apk del .redis
 
@@ -21,6 +22,7 @@ RUN apk --no-cache --virtual .kafka add --update autoconf build-base make git ba
 && make -j${NPROC} \
 && make -j${NPROC} install \
 && rm -rf /tmp/librdkafka \
+&& if [[ -n "$http_proxy" ]] ; then pear config-set http_proxy ${http_proxy}; fi \
 && pecl install rdkafka-6.0.3 && docker-php-ext-enable rdkafka \
 && apk del .kafka
 
